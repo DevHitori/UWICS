@@ -1,0 +1,23 @@
+{
+  "name": "react-express-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boilerplate for react (front-end) and express (back-end)",
+  "dependencies": {
+    "concurrently": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently \"cd api && yarn start\" \"cd client && yarn start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevHitori/React-Express-Boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevHitori/React-Express-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/DevHitori/React-Express-Boilerplate#readme"
+}
