@@ -1,0 +1,39 @@
+/* .menuBar{
+  position: absolute;
+  right: 30px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menLink{
+   color: white;
+   transition: 0.3s ease;
+   text-decoration: none;
+   border-top: 2px solid transparent;
+   border-bottom: 2px solid transparent;
+}
+
+.ui.text.menu .active.item{
+  transition: 0.3s ease;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+   text-shadow: 2px 2px 3px #000000;
+}
+
+.ui.text.menu{
+  color: white;
+}
+
+.menLink:hover{
+transition: 0.3s ease;
+border-top: 2px solid red;
+border-bottom: 2px solid red;
+text-shadow: 2px 2px 3px #000000;
+}
+
+.logo{
+  position: absolute;
+  top: 0.75vh;
+  left: 3vh;
+  width: 200px;
+  height: auto;
+} */

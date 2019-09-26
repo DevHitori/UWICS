@@ -1,0 +1,93 @@
+body{
+  position: sticky;
+  z-index: 8;
+  overflow: hidden;
+}
+
+.aboutPage{
+}
+
+.aboutInfo{
+  font-weight: 700;
+  color: white;
+  font-size: 2vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom:5%;
+}
+
+.aboutDiv{
+  overflow-y: scroll;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: orange;
+  position: relative;
+  top: 10vh;
+  background: linear-gradient(to left, #141e30, #243b55);
+  width: 100vw;
+  padding-top: 2%;
+  height: 90vh;
+}
+
+.aboutBox{
+  height: 150px;
+  width: 70%;
+  margin-left: 8%;
+  margin-bottom: 6%;
+  color: white;
+}
+
+.aboutBox h2{
+  display: inline;
+  color: white;
+}
+.aboutBox p{
+  color: white;
+}
+
+
+.aboutText{
+  position: relative;
+  height: 100%;
+}
+
+.aboutBox img{
+  margin-right: 4%;
+  float: left;
+  position: relative;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* .App-header {
+background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
