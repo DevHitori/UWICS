@@ -4,13 +4,10 @@ import logo from '../img/logo.svg';
 import { Progress,Message,Icon  } from 'semantic-ui-react'
 import './Home.css';
 import DesktopContainer from '../Components/HomepageLayout';
+import './nextparticle.js';
 
 
 
-const items = [
-  'This Website is still in development',
-  'Date initiated: 20/07/2019 :: 12:02 AM ',
-]
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -31,8 +28,15 @@ export default class Home extends React.Component {
   render() {
         return (
           <div className="App">
+          <div className="logoHolder">
+          <img
+          id="logo"
+          className="next-particle"
+          src="./z.png"
+          />
+          </div>
           <DesktopContainer/>
-        </div>
+          </div>
         );
       }
 

@@ -1,20 +1,40 @@
-body{
+/* body{
   -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
+} */
+
+.fullDoc{
+  overflow: scroll;
+  display: inline;
 }
 
-
 .App {
+  position: relative;
   text-align: center;
   height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: scroll;
+  background-color: white;
+}
+
+.logoHolder{
+  z-index: 10;
+  background-color: black;
+}
+
+canvas {
+    display: inline-block;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
 }
 /*
 
@@ -47,3 +67,12 @@ body{
     transform: rotate(360deg);
   }
 } */
+html .slides,
+body .slides,
+html > .dg,
+body > .dg {
+}
+
+#logo{
+  top: 100px;
+}

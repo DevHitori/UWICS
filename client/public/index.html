@@ -21,10 +21,16 @@
     -->
 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />
+    <style>
+
+
+
+    </style>
 
     <title>UWICS</title>
   </head>
   <body>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -38,4 +44,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/23500/nextparticle-documentation.js"></script>
+  <script>
+  nextParticle = new NextParticle({
+  image: document.all.logo,
+  addTimestamp: true,
+  width: 500,
+  height: 500,
+  initPosition: 'none',
+  initDirection: 'none',
+});
+</script>
+
 </html>

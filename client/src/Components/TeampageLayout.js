@@ -301,7 +301,7 @@ Daniel is a comedian living in Nashville.
               "I shouldn't have gone with their competitor."
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              <Image avatar src='/images/avatar/large/nan.jpg' />
+              <Image avatar src='' />
               <b>Nan</b> Chief Fun Officer Acme Toys
             </p>
           </Grid.Column>

@@ -16,6 +16,8 @@ import {
   Sidebar,
   Visibility,
 } from 'semantic-ui-react'
+import './nextparticle.js';
+
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -34,7 +36,7 @@ const HomepageHeading = ({ mobile }) => (
   <Container text>
     <Header
       as='h1'
-      content='UWICS'
+      content=''
       inverted
       style={{
         fontSize: mobile ? '2em' : '4em',
