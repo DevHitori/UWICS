@@ -35,7 +35,6 @@ export default class Home extends React.Component {
           src="./z.png"
           />
           </div>
-          <DesktopContainer/>
           </div>
         );
       }
@@ -43,3 +42,4 @@ export default class Home extends React.Component {
 
 
 }
+// <DesktopContainer/>

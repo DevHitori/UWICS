@@ -226,8 +226,8 @@ const HomepageLayout = () => (
           <Card>
 <Image src={kyleImg} wrapped ui={false} />
 <Card.Content>
-  <Card.Header>Daniel</Card.Header>
-  <Card.Meta>Joined in 2016</Card.Meta>
+  <Card.Header>Keanu Nichols</Card.Header>
+  <Card.Meta>President</Card.Meta>
   <Card.Description>
     Daniel is a comedian living in Nashville.
   </Card.Description>
@@ -235,7 +235,7 @@ const HomepageLayout = () => (
 <Card.Content extra>
   <a>
     <Icon name='user' />
-    10 Friends
+    Final Year
   </a>
 </Card.Content>
 </Card>
@@ -243,8 +243,8 @@ const HomepageLayout = () => (
 <Card>
 <Image src={kyleImg} wrapped ui={false} />
 <Card.Content>
-<Card.Header>Daniel</Card.Header>
-<Card.Meta>Joined in 2016</Card.Meta>
+<Card.Header>Omari Lawrence</Card.Header>
+<Card.Meta>Vice President</Card.Meta>
 <Card.Description>
 Daniel is a comedian living in Nashville.
 </Card.Description>
@@ -252,7 +252,7 @@ Daniel is a comedian living in Nashville.
 <Card.Content extra>
 <a>
 <Icon name='user' />
-10 Friends
+Final Year
 </a>
 </Card.Content>
 </Card>
@@ -260,8 +260,8 @@ Daniel is a comedian living in Nashville.
 <Card>
 <Image src={kyleImg} wrapped ui={false} />
 <Card.Content>
-<Card.Header>Daniel</Card.Header>
-<Card.Meta>Joined in 2016</Card.Meta>
+<Card.Header>Randell Persad</Card.Header>
+<Card.Meta>Treasurer</Card.Meta>
 <Card.Description>
 Daniel is a comedian living in Nashville.
 </Card.Description>
@@ -269,7 +269,25 @@ Daniel is a comedian living in Nashville.
 <Card.Content extra>
 <a>
 <Icon name='user' />
-10 Friends
+Final Year
+</a>
+</Card.Content>
+</Card>
+
+
+<Card>
+<Image src={kyleImg} wrapped ui={false} />
+<Card.Content>
+<Card.Header>Kael Wason</Card.Header>
+<Card.Meta>Webmaster</Card.Meta>
+<Card.Description>
+Daniel is a comedian living in Nashville.
+</Card.Description>
+</Card.Content>
+<Card.Content extra>
+<a>
+<Icon name='user' />
+  Final Year
 </a>
 </Card.Content>
 </Card>

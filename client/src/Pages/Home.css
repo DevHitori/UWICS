@@ -13,14 +13,15 @@
 }
 
 .App {
-  position: relative;
+  position: absolute;
   text-align: center;
   height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: scroll;
+  overflow: hidden;
   background-color: white;
+  z-index: 0;
 }
 
 .logoHolder{
@@ -29,13 +30,15 @@
 }
 
 canvas {
-    display: inline-block;
-    position: fixed;
-    top: 5%;
-    left: 50%;
+    /* top: 5%; */
+    /* left: 50%; */
+    /* width: 100%; */
+    /* height: 100%; */
     z-index: 10;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
 }
+
+
 /*
 
 .App-logo {
